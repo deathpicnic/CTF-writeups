@@ -5,11 +5,6 @@ https://tryhackme.com/room/relevant
 Penetration Testing Challenge
 > Difficulty: Medium 
 
-This is one of the [Wee](../Wee) challenges.
-
-It's the third of 5 similar challenges revolving around breaking assertions
-inside the interpreter source.
-
 ## Analysis
 
 **nmap scan**
