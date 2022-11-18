@@ -25,7 +25,7 @@ let's check port ***80*** first.
 
 **gobuster**
 
-let's start with listing [-L]
+let's start with directory listing [dir]
 
 ![gobuster](https://raw.githubusercontent.com/deathpicnic/CTF-writeups/main/files/Relevant/gobuster.png)
 
@@ -34,9 +34,11 @@ next is checking smbclient on port ***139,445***
 
 **smbclient**
 
+starting with listing [-L]
+
 ![smb](https://raw.githubusercontent.com/deathpicnic/CTF-writeups/main/files/Relevant/smb.png)
 
-checking all shares, ***nt4wrksv*** was accessible with `--no-pass` and by listing directories ***passwords.txt*** was found
+checking all shares, ***nt4wrksv*** was accessible with `--no-pass` and by listing directories, ***passwords.txt*** was found
 
 ![smb1](https://raw.githubusercontent.com/deathpicnic/CTF-writeups/main/files/Relevant/smb1.png)
 
